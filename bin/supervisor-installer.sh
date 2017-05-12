@@ -44,8 +44,7 @@ main() {
 
   cd $HOME
   mkdir -p etc tmp var/run log
-  
-
+  cp ${PRJ_ROOT}/bin/supervisord.conf etc/
 }
 
 main
